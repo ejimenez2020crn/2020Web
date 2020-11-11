@@ -1,0 +1,193 @@
+body{
+  margin: 0;
+  font-family: helvetica;
+
+}
+
+div{
+  background-color: red;
+  height: 50px;
+
+}
+
+h1, p{
+  width: 350px;
+  padding: 25px;
+
+}
+
+h1{
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+p{
+  padding: 0 25px;
+  margin: 0;
+}
+
+img{
+  padding: 25px 0 0 0;
+}
+
+li{
+  display: inline-block;
+  height: 30px;
+  margin: 0 10px;
+  line-height: 40px;
+  padding: 5px;
+
+}
+
+
+
+.blanca{
+  background-color: #FFF;
+}
+
+.verda{
+  background-color: #6C3;
+}
+
+.fosca{
+  background-color: #333;
+}
+
+.clara{
+  background-color: #EEECEE;
+}
+
+.cf{
+  background-color: #6C3;
+  border: solid;
+  border-color: #6C3;
+  color: white;
+  border-radius: 5px;
+}
+
+.t{
+  border: solid;
+  border-color: #6C3;
+  color: #6C3;
+  border-radius: 5px;
+
+}
+
+.u{
+  background-color: #6C3;
+  border: solid;
+  border-color: #6C3;
+  color: white;
+  border-radius: 5px;
+}
+
+.r{
+  border: solid;
+  border-color: #6C3;
+  color: #6C3;
+  border-radius: 5px;
+}
+
+.f{
+  background-color: #6C3;
+  border: solid;
+  border-color: #6C3;
+  color: white;
+  border-radius: 5px;
+}
+
+.a{
+  border: solid;
+  border-color: #6C3;
+  color: #6C3;
+  border-radius: 5px;
+}
+
+.c{
+  background-color: #6C3;
+  border: solid;
+  border-color: #6C3;
+  color: white;
+  border-radius: 5px;
+}
+
+#primera{
+  height: 40px;
+}
+
+#segona{
+  height: 550px;
+  background-image: url(img/img-hero-full-list.png);
+  background-position: 400px;
+  background-repeat: no-repeat;
+}
+
+#tercera{
+  height: 641px;
+  background-image: url(img/allinone.jpg);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+#quarta{
+  height: 500px;
+  background-image: url(img/curator-short.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+#cinquena{
+  height: 550px;
+  background-image: url(img/img-hero-full-list.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+#sisena{
+  height: 550px;
+  background-image: url(img/mobile-share.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+#setena{
+  height: 643px;
+  background-image: url(img/anywhere.png);
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+#vuitena{
+  height: 200px;
+  text-align: center;
+}
+
+#boto{
+  /*dimensions*/
+  height: 70px;
+  width: 70px;
+
+  /*posicionament*/
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+
+/*text*/
+  line-height: 70px;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+
+
+/*caixa*/
+  border: solid 2px black;
+  border-radius: 35px;
+  box-shadow: 2px 2px 5px black;
+  background-image: url(img/sources.png);
+  background-position: -227px -19px;
+  opacity: 0.7;
+}
