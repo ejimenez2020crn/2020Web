@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #222;
+}
+
+#barra{
+  width: auto;
+  height: 50px;
+  background-color: black;
+}
+
+#logo{
+  margin: 10px 30px 10px 20px;
+  padding: 0;
+  float: left;
+}
+
+.dreta{
+  float: right;
+  color: #FFF;
+  font-family: helvetica;
+  margin: 20px;
+}
+
+li{
+  display: inline-block;
+  margin: 20px 5px 0 0px;
+  padding: 0;
+  float: left;
+
+}
+
+a{
+  text-decoration: none;
+  color: #CCC;
+  font-family: helvetica;
+}
+
+a:hover{
+  color: #FFF;
+  border-bottom: 2px solid #FFF;
+}
+
+
+.seccio{
+  width: 400px;
+  color: #FFF;
+  font-family: helvetica;
+  font-size: 22px;
+  margin: 10px 0 0 20px;
+
+}
+
+.vistos{
+  width: 175px;
+  height: 300px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+}
+
+.documentalsvistos:hover{
+  opacity: 50%;
+}
+
+
+.documentals{
+  width: 175px;
+  height: 300px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+}
+
+
+.documentals:hover{
+  opacity: 50%;
+}
+
+.any{
+  color: #CCC;
+  font-family: helvetica;
+  font-size: 11px;
+  width: 30px;
+  display: block;
+}
+
+
+h2{
+  color: #CCC;
+  font-family: helvetica;
+  font-size: 14px;
+  margin: 0;
+}
+
+h3{
+  color: #CCC;
+  font-family: helvetica;
+  font-size: 11px;
+  float: left;
+  margin-top: 10px;
+}
+
+h4{
+  color: #CCC;
+  font-family: helvetica;
+  font-size: 11px;
+  text-align: right;
+  margin-top: 10px;
+}
