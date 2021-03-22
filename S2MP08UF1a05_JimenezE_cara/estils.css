@@ -1,0 +1,107 @@
+.cap{
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  background-color: pink;
+  border-radius: 100px 100px 50% 50%;
+  left: 50px;
+}
+
+.cabell{
+  height: 150px;
+  background-color: black;
+  border-radius: 100px 100px 0 0;
+}
+
+.ojo2{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #993d00;
+  border-radius: 50px;
+  top: 40%;
+  right: 25%;
+}
+
+.ojo1{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #993d00;
+  border-radius: 50px;
+  top: 40%;
+  left: 25%;
+
+}
+
+.ojo1:before{
+  content:"";
+  position: absolute;
+  width: 130px;
+  height: 20px;
+  background-color: #3d2a1c;
+  border-radius: 6px;
+  bottom: 150%;
+  right: -155%;
+  }
+
+.ojo2:before{
+  content:"";
+  position: absolute;
+  width: 130px;
+  height: 20px;
+  background-color: #3d2a1c;
+  border-radius: 6px;
+  bottom: 150%;
+  left: -155%
+  }
+
+.nariz{
+  position: absolute;
+  width: 45px;
+  height: 120px;
+  background-color: #ff9978;
+  border-radius: 10px;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+
+}
+
+
+.oreja1{
+  position:absolute;
+  width:25px;
+  height: 85px;
+  background-color: #e25a2b;
+  top: 40%;
+  left: -24px;
+  border-radius: 15px 0 0 15px;
+
+}
+
+.oreja2{
+  position:absolute;
+  width:25px;
+  height: 85px;
+  background-color: #e25a2b;
+  top: 40%;
+  right: -24px;
+  border-radius: 0 15px 15px 0;
+
+}
+
+.boca{
+  position: absolute;
+  border: 5px solid #df9f9d;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 130%);
+}
